@@ -8,7 +8,7 @@
 /* ====== CONFIG (THAY ĐỔI CÁC THÔNG SỐ NÀY) ====== */
 const char* device_name = "ESP32"; 
 const char* ssid = "Hùnn";         // <--- CHANGE ME
-const char* password = "11223322";        // <--- CHANGE ME
+const char* password = "11223300";        // <--- CHANGE ME
 
 // IP của máy tính chạy Home Assistant
 const char* mqtt_server = "172.20.10.2";      // <--- CHANGE ME (IP của HA)
@@ -80,7 +80,7 @@ void setup() {
   Serial.println();
   Serial.println("############################");
   Serial.println("#   ESP8266 IoT Lab 1     #");
-  Serial.println("#   Student: 10123150     #");
+  Serial.println("#   Student: 10123152     #");
   Serial.println("############################");
   Serial.println();
   
